@@ -1,5 +1,5 @@
 # Creates a base ubuntu image with serf and dnsmasq
-FROM ubuntu:15.04
+FROM centos 6.7
 
 MAINTAINER KiwenLau <kiwenlau@gmail.com>
 
