@@ -1,5 +1,5 @@
 # Creates a base ubuntu image with serf and dnsmasq
-FROM centos:centos6.7
+FROM centos6.7
 
 # -----------------------------------------------------------------------------
 # Import the RPM GPG keys for Repositories
