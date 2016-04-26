@@ -1,5 +1,5 @@
 # Creates a base ubuntu image with serf and dnsmasq
-FROM centos 6.7
+FROM sequenceiq/pam:centos-6.5
 
 MAINTAINER KiwenLau <kiwenlau@gmail.com>
 
