@@ -1,8 +1,5 @@
 # Creates a base ubuntu image with serf and dnsmasq
-FROM local/c7-systemd
-RUN yum -y install httpd; yum clean all; systemctl enable httpd.service
-EXPOSE 80
-CMD ["/usr/sbin/init"]
+ubuntu:15.04
 
 MAINTAINER KiwenLau <kiwenlau@gmail.com>
 
